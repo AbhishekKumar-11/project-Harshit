@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  box-sizing: border-box;
+  user-select:none ;
+ 
+}
+html,body{
+   height: 100vh;
+   width: 100vw;
+   /* background-color: olive; */
+}
+
+#nav {
+    width: 100vw;
+    height: 10vh;
+    /* background-color: gray; */
+  }
+  #nav {
+    display: flex;
+    align-items: center;
+    padding: 0 5vw;
+  }
+  #nav a {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  #nav > a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-family: gilroy;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  #wrapper{
+    height: 90vh;
+    width: 100vw;
+    /* background-color: yellow; */
+  }
+  #left{
+    width: 60vw;
+    height: inherit;
+    padding: 2vh 5vw;
+    overflow: hidden;
+    /* background-color: red; */
+  }
+  #left h2{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2;
+  }
+
+ #left p{
+    opacity: .8;
+    text-shadow:  2px 2px 0px  rgb(243, 244, 246);
+    font-weight: 510;
+    opacity: .9;
+    font-family: gilroy;
+    /* background-color: red; */
+ } 
+#right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* z-index: 999; */  
+    width: 35vw;
+    height: 96vh;
+    background-color: rgb(192, 245, 216);
+    border-radius: 0 0 50% 50%;
+  }
+  #right img:nth-child(1){
+     width: 6vw;
+    border-radius: 50%;
+    position: absolute;
+  
+    top: 2.5%;
+    left: 45%;
+  }
+  #right img:nth-child(2){
+    /* background-color: red; */
+    top: 17%;
+    right: 0%;
+    position: absolute;
+  }
+  #right img:nth-child(3){
+    /* background-color: red; */
+   bottom: -2%;
+    left: 85%;
+    position: absolute;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red ; */
+    height: inherit;
+    width: inherit;
+    padding: 50px 0px;
+    gap: 10px;
+  }
+ form label{
+    font-size: large;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px ;
+    text-shadow: 2px 3px  6px rgb(206, 197, 197);
+    opacity: 0.85;
+    font-family: gilroy;
+    /* background-color: red; */
+  }
+  form #password{
+    display: flex; 
+    align-items: center;
+
+    /* background-color: red; */
+  }
+  form  a{
+    padding: 10px 10vw;
+    text-decoration: none;
+    color:  rgb(86, 178, 128);
+    font-weight: 600;
+    
+    
+  }
+  input{
+    border-radius:8px ;
+    height: 4vh;
+    width: 30vw;
+    padding: 20px;
+    background-color: rgb(243, 244, 246);
+    box-shadow: 2px 2px 3px rgb(186, 184, 204) ;
+    border: none;
+    outline: none;
+    text-shadow: 20px 50px 10px black;
+  }
+  button{
+    height: 6vh;
+    width: 26vw;
+    border-radius: 10px;
+    background-color: rgb(86, 178, 128);
+    color: white;
+     box-shadow: 2px 2px 3px rgb(186, 184, 204) ;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+  }
+ button a {
+      color: white; 
+    
+ }
+
+  form #down{
+    /* background-color: red; */
+    padding: 20px 0px;
+  }
+  form #down a{
+    padding: 0px;
+  }
+  * p,h2{
+    text-shadow: 2px 5px 2px rgb(243, 244, 246);
+  }
+
+  #name {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+   
+  }
+
+  #name input{
+    height: 6vh;
+    width: 15vw;
+    /* background-color: red; */
+  }
+  form p{
+    /* background-color: red; */
+    padding: 4vh  0 ; 
+  }
+
+  

@@ -1,0 +1,143 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: gilroy;
+  /* overflow: hidden;     */
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: red; */
+}
+#nav {
+  width: 100vw;
+  height: 10vh;
+  /* background-color: gray; */
+}
+#nav {
+  display: flex;
+  align-items: center;
+  padding: 0 5vw;
+}
+#nav a {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#nav > a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  font-family: gilroy;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#wrapper {
+  height: 90vh;
+  width: inherit;
+  display: flex;
+}
+#left {
+  width: 60vw;
+  overflow: hidden;
+  height: inherit;
+  position: relative;
+  /* background-color: yellow; */
+}
+
+#text {
+  position: absolute;
+  height: 50vh;
+  width: 25vw;
+  /* background-color: red; */
+  top: 10%;
+  left: 20%;
+}
+
+#text #i {
+  /* background-color: beige; */
+  display: flex;
+  justify-content: center;
+}
+#left #textin {
+  padding: 0 2vw;
+  line-height: 1.5;
+}
+
+#left  button {
+  position: absolute;
+  padding: 1vw 1.5vw;
+  right: 35%;
+  top: 75%;
+  background-color: rgb(40, 206, 26);
+  font-weight: 600;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 15px;
+  border: 0;
+  cursor: pointer;
+}
+#lowimg {
+  position: absolute;
+  left: -11%;
+  bottom: -20%;
+  height: 25vw;
+  width: 25vw;
+  background-color: rgb(255, 243, 201);
+  /* border-top: 1px solid black;  */
+  border-radius: 50%;
+}
+#lowimg>img {
+    object-fit: cover;
+  position: absolute;
+  top: 1.2%;
+  right: 5.5%;
+  width: 17vw;
+  z-index: 999;
+}
+#right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* z-index: 999; */
+  width: 35vw;
+  height: 96vh;
+  background-color: rgb(192, 245, 216);
+
+  border-radius: 0 0 50% 50%;
+}
+#right img:nth-child(1){
+   width: 6vw;
+  border-radius: 50%;
+  position: absolute;
+
+  top: 2.5%;
+  left: 45%;
+}
+#right img:nth-child(2){
+  /* background-color: red; */
+  top: 17%;
+  right: 0%;
+  position: absolute;
+}
+#right img:nth-child(3){
+  /* background-color: red; */
+ bottom: -2%;
+  left: 85%;
+  position: absolute;
+}
+/* .icon-image{
+  width: 6vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 1%;
+  left: 45%;
+} */
